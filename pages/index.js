@@ -2,6 +2,10 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.scss";
 import Typed from "react-typed";
+import Patience from "../assets/img/patience.png";
+import Curiosity from "../assets/img/curiosity.png";
+import Group from "../assets/img/group.png";
+import Kindness from "../assets/img/kindness.png";
 
 export default function Home() {
   return (
@@ -10,11 +14,11 @@ export default function Home() {
         <h1>
           <Typed
             strings={[
-              "WELCOME ON MY PORTFOLIO",
-              "WELCOME ON MY DATABASE",
-              "WELCOME IN MY UNIVERSE",
+              "WELCOME TO MY PORTFOLIO",
+              "WELCOME TO MY DATABASE",
+              "WELCOME IN MY UNIVERSE...",
             ]}
-            typeSpeed={40}
+            typeSpeed={50}
             backSpeed={50}
             loop
           />
@@ -81,26 +85,80 @@ export default function Home() {
           </ul>
         </section>
         <section className={styles.description}>
-          <h2>DESCRIPTION :</h2>
-          <p>
-            Julien is a beginner web developer. After more than 15 years in
-            retail shops and logistics he decided to go through a drastic change
-            in the course of his career, for the better. He discovered web
-            developement years ago but was too afraid to go further. After
-            months of thinking, he decided to go through it.
-          </p>
-          <p>
-            He started as a self-taught student, learning more and more. He
-            discovered a new passion which increased everyday. He decided to be
-            part of the formidable bootcamp called Le Reacteur which helped him
-            go further. He learned modern fullstack technologies but has a knack
-            for frontend developement.
-          </p>
-          <p>
-            He now wants to start his career as a web developer, either as an
-            intern or as a fulltime employee if someone is ready to give him the
-            chance.
-          </p>
+          <h2>INTRODUCTION</h2>
+          <div>
+            <p>
+              Julien is a beginner web developer. After more than 15 years in
+              retail shops and logistics he decided to go through a drastic
+              change in the course of his career, for the better. He discovered
+              web developement years ago but was too afraid to go further. After
+              months of thinking, he decided to go through it.
+            </p>
+            <p>
+              He started as a self-taught student, learning more and more. He
+              discovered a new passion which increased everyday. He decided to
+              be part of the formidable bootcamp called Le Reacteur which helped
+              him go further. He learned modern fullstack technologies but has a
+              knack for frontend developement. How could he predict that you
+              could have fun when working ?
+            </p>
+            <p>
+              He now wants to start his career as a web developer, either as an
+              intern or as a fulltime employee if someone is ready to give him
+              the chance.
+            </p>
+          </div>
+        </section>
+        <section className={styles.skills}>
+          <article>
+            <h3>SOFT SKILLS</h3>
+            <div>
+              <div className={styles.logoContainer}>
+                <Image src={Patience} alt="patience logo" />
+              </div>
+              <p>Patience</p>
+            </div>
+            <p className={styles.skillDescription}>
+              Allows Julien to stay level-headed under dire circumstances.
+              Unless it's the last slice of pizza.
+            </p>
+            <div>
+              <div className={styles.logoContainer}>
+                <Image src={Curiosity} alt="curiosity logo" />
+              </div>
+              <p>Curiousity</p>
+            </div>
+            <p className={styles.skillDescription}>
+              Julien loves to learn new things more than anything. He won't stop
+              at something he doesn't know and loves resolving problems. And
+              creating some.
+            </p>
+            <div>
+              <div className={styles.logoContainer}>
+                <Image src={Group} alt="group logo" />
+              </div>
+              <p>Teamwork</p>
+            </div>
+            <p className={styles.skillDescription}>
+              A good teamwork helps Julien's growth tenfold. He loves working
+              with other people so everybody can grow and learn from eachother.
+              Likes to disturb with weird jokes.
+            </p>
+            <div>
+              <div className={styles.logoContainer}>
+                <Image src={Kindness} alt="kindness logo" />
+              </div>
+              <p>Benevolence</p>
+            </div>
+            <p className={styles.skillDescription}>
+              Julien is always up to help others. He is sure that it is the key
+              for success and for people to elevate themselves and eachother.
+              Except if it's a cat, he won't care.
+            </p>
+          </article>
+          <article>
+            <h3>HARD SKILLS</h3>
+          </article>
         </section>
       </main>
     </div>
