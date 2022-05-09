@@ -7,6 +7,7 @@ import Patience from "../assets/img/patience.png";
 import Curiosity from "../assets/img/curiosity.png";
 import Group from "../assets/img/group.png";
 import Kindness from "../assets/img/kindness.png";
+import Portrait from "../assets/img/portrait.jpg";
 
 export default function Home() {
   const skills = [
@@ -53,10 +54,7 @@ export default function Home() {
       <main>
         <section className={styles.profile}>
           <div className={styles.portrait}>
-            <img
-              src="https://res.cloudinary.com/df4imwogd/image/upload/v1652090753/GitHub/photo-cv-bis_gefnvm.jpg"
-              alt="My profile picture"
-            />
+            <Image src={Portrait} alt="My profile picture" />
           </div>
           <ul>
             <li>
