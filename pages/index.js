@@ -8,6 +8,7 @@ import Curiosity from "../assets/img/curiosity.png";
 import Group from "../assets/img/group.png";
 import Kindness from "../assets/img/kindness.png";
 import Portrait from "../assets/img/portrait.jpg";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   const skills = [
@@ -50,7 +51,7 @@ export default function Home() {
           />
         </h1>
       </header>
-
+      <Navbar />
       <main>
         <section className={styles.profile}>
           <div className={styles.portrait}>
