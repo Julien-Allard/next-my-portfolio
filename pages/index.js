@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { v4 as uuidv4 } from "uuid";
 import Image from "next/image";
 import styles from "../styles/Home.module.scss";
 import Typed from "react-typed";
@@ -8,6 +9,30 @@ import Group from "../assets/img/group.png";
 import Kindness from "../assets/img/kindness.png";
 
 export default function Home() {
+  const skills = [
+    "REACT",
+    "REACT NATIVE",
+    "NEXT.JS",
+    "SASS",
+    "JAVASCRIPT",
+    "GIT",
+    "NODE.JS",
+    "MONGODB",
+    "EXPRESS",
+  ];
+
+  const tools = [
+    "VSC",
+    "GITHUB",
+    "FIGMA",
+    "NETLIFY",
+    "HEROKU",
+    "ATLAS",
+    "STRIPE",
+  ];
+
+  const futureSkills = ["REDUX", "TYPESCRIPT"];
+
   return (
     <div className={styles.container}>
       <header>
@@ -39,7 +64,7 @@ export default function Home() {
               <span>
                 <Typed
                   strings={["Julien Allard"]}
-                  typeSpeed={40}
+                  typeSpeed={100}
                   showCursor={false}
                 />
               </span>
@@ -47,7 +72,7 @@ export default function Home() {
             <li>
               <span className={styles.data}>AGE :</span>
               <span>
-                <Typed strings={["36"]} typeSpeed={40} showCursor={false} />
+                <Typed strings={["36"]} typeSpeed={100} showCursor={false} />
               </span>
             </li>
             <li>
@@ -55,7 +80,7 @@ export default function Home() {
               <span>
                 <Typed
                   strings={["Web Developer"]}
-                  typeSpeed={40}
+                  typeSpeed={100}
                   showCursor={false}
                 />
               </span>
@@ -65,7 +90,7 @@ export default function Home() {
               <span>
                 <Typed
                   strings={["Beginner"]}
-                  typeSpeed={40}
+                  typeSpeed={100}
                   showCursor={false}
                 />
               </span>
@@ -75,10 +100,9 @@ export default function Home() {
               <span>
                 <Typed
                   strings={[
-                    "React, React Native, Next.js, TypeScript, JavaScript, SASS, Node.js, MongoDB",
+                    "React, React Native, Next.js, JavaScript, SASS, Node.js, MongoDB",
                   ]}
                   typeSpeed={40}
-                  showCursor={false}
                 />
               </span>
             </li>
@@ -126,7 +150,7 @@ export default function Home() {
               <div className={styles.logoContainer}>
                 <Image src={Curiosity} alt="curiosity logo" />
               </div>
-              <p>Curiousity</p>
+              <p>Curiosity</p>
             </div>
             <p className={styles.skillDescription}>
               Julien loves to learn new things more than anything. He won't stop
@@ -158,6 +182,29 @@ export default function Home() {
           </article>
           <article>
             <h3>HARD SKILLS</h3>
+            <div className={styles.hardSkills}>
+              {skills.map((elem) => {
+                return <p key={uuidv4()}>{elem}</p>;
+              })}
+            </div>
+            <span className={styles.separator}></span>
+            <h3>TOOLS</h3>
+            <div className={styles.hardSkills}>
+              {tools.map((elem) => {
+                return <p key={uuidv4()}>{elem}</p>;
+              })}
+            </div>
+            <span className={styles.separator}></span>
+            <h3>NEXT SKILLS</h3>
+            <div className={styles.hardSkills}>
+              {futureSkills.map((elem) => {
+                return (
+                  <p className={styles.futureSkills} key={uuidv4()}>
+                    {elem}
+                  </p>
+                );
+              })}
+            </div>
           </article>
         </section>
       </main>
