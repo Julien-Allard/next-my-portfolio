@@ -142,7 +142,7 @@ export default function Home() {
             </div>
             <p className={styles.skillDescription}>
               Allows Julien to stay level-headed under dire circumstances.
-              Unless it's the last slice of pizza.
+              Unless it is the last slice of pizza.
             </p>
             <div>
               <div className={styles.logoContainer}>
@@ -151,9 +151,9 @@ export default function Home() {
               <p>Curiosity</p>
             </div>
             <p className={styles.skillDescription}>
-              Julien loves to learn new things more than anything. He won't stop
-              at something he doesn't know and loves resolving problems. And
-              creating some.
+              Julien loves to learn new things more than anything. He will not
+              stop at something he doesn&apos;t know and loves resolving
+              problems. And creating some.
             </p>
             <div>
               <div className={styles.logoContainer}>
@@ -162,9 +162,9 @@ export default function Home() {
               <p>Teamwork</p>
             </div>
             <p className={styles.skillDescription}>
-              A good teamwork helps Julien's growth tenfold. He loves working
-              with other people so everybody can grow and learn from eachother.
-              Likes to disturb with weird jokes.
+              A good teamwork helps Julien&apos;s growth tenfold. He loves
+              working with other people so everybody can grow and learn from
+              eachother. Likes to disturb with weird jokes.
             </p>
             <div>
               <div className={styles.logoContainer}>
@@ -175,7 +175,7 @@ export default function Home() {
             <p className={styles.skillDescription}>
               Julien is always up to help others. He is sure that it is the key
               for success and for people to elevate themselves and eachother.
-              Except if it's a cat, he won't care.
+              Except if it&apos;s a cat, he won&apos;t care.
             </p>
           </article>
           <article>
