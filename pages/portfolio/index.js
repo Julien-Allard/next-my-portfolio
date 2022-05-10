@@ -39,6 +39,7 @@ export default function Portfolio() {
                   placeholder="blur"
                   width="320"
                   height="165"
+                  alt="Vinted Clone banner"
                 />
               </div>
               <div className={styles.projectDescription}>
@@ -72,18 +73,21 @@ export default function Portfolio() {
               <a
                 href="https://react-vinted-clone-julalldev.netlify.app/"
                 target="_blank"
+                rel="noreferrer"
               >
                 TEST
               </a>
               <a
                 href="https://github.com/Julien-Allard/react-vinted-clone"
                 target="_blank"
+                rel="noreferrer"
               >
                 FRONT CODE
               </a>
               <a
                 href="https://github.com/Julien-Allard/Vinted-Le-Reacteur"
                 target="_blank"
+                rel="noreferrer"
               >
                 BACK CODE
               </a>
@@ -99,6 +103,7 @@ export default function Portfolio() {
                   placeholder="blur"
                   width="320"
                   height="165"
+                  alt="Marveact banner"
                 />
               </div>
               <div className={styles.projectDescription}>
@@ -129,18 +134,24 @@ export default function Portfolio() {
               </div>
             </div>
             <div className={styles.linksContainer}>
-              <a href="https://marveact-julalldev.netlify.app/" target="_blank">
+              <a
+                href="https://marveact-julalldev.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 TEST
               </a>
               <a
                 href="https://github.com/Julien-Allard/react-marvel-app"
                 target="_blank"
+                rel="noreferrer"
               >
                 FRONT CODE
               </a>
               <a
                 href="https://github.com/Julien-Allard/express-marvel-app"
                 target="_blank"
+                rel="noreferrer"
               >
                 BACK CODE
               </a>
@@ -156,6 +167,7 @@ export default function Portfolio() {
                   placeholder="blur"
                   width="320"
                   height="165"
+                  alt="Flemme banner"
                 />
               </div>
               <div className={styles.projectDescription}>
@@ -177,8 +189,8 @@ export default function Portfolio() {
                     <span>
                       A fullstack MVP made for the Flemme startup. Register at a
                       restaurant table, order, pay for any of your or other
-                      people's orders at the table. Anybody can join and pay at
-                      any moment, orders are updated in (near) realtime.
+                      people&apos;s orders at the table. Anybody can join and
+                      pay at any moment, orders are updated in (near) realtime.
                       Download your receipt.
                       <br />
                       Team : Nicolas Guérineau (lead), Johann Pouponnot
@@ -189,10 +201,18 @@ export default function Portfolio() {
               </div>
             </div>
             <div className={styles.linksContainer}>
-              <a href="https://youtu.be/eGpPDp99VR8" target="_blank">
+              <a
+                href="https://youtu.be/eGpPDp99VR8"
+                target="_blank"
+                rel="noreferrer"
+              >
                 DEMO #1
               </a>
-              <a href="https://youtu.be/7pGDnbgZkyw" target="_blank">
+              <a
+                href="https://youtu.be/7pGDnbgZkyw"
+                target="_blank"
+                rel="noreferrer"
+              >
                 DEMO #2
               </a>
             </div>
@@ -207,6 +227,7 @@ export default function Portfolio() {
                   placeholder="blur"
                   width="320"
                   height="165"
+                  alt="Contact Form banner"
                 />
               </div>
               <div className={styles.projectDescription}>
@@ -238,18 +259,21 @@ export default function Portfolio() {
               <a
                 href="https://simple-contact-form-julalldev.netlify.app/"
                 target="_blank"
+                rel="noreferrer"
               >
                 TEST
               </a>
               <a
                 href="https://github.com/Julien-Allard/contact-form-front"
                 target="_blank"
+                rel="noreferrer"
               >
                 FRONT CODE
               </a>
               <a
                 href="https://github.com/Julien-Allard/contact-form-back"
                 target="_blank"
+                rel="noreferrer"
               >
                 BACK CODE
               </a>
@@ -265,6 +289,7 @@ export default function Portfolio() {
                   placeholder="blur"
                   width="320"
                   height="165"
+                  alt="Deliveroo page banner"
                 />
               </div>
               <div className={styles.projectDescription}>
@@ -296,18 +321,21 @@ export default function Portfolio() {
               <a
                 href="https://react-deliveroo-julalldev.netlify.app/"
                 target="_blank"
+                rel="noreferrer"
               >
                 TEST
               </a>
               <a
                 href="https://github.com/Julien-Allard/react-deliveroo-clone"
                 target="_blank"
+                rel="noreferrer"
               >
                 FRONT CODE
               </a>
               <a
                 href="https://github.com/Julien-Allard/deliveroo-backend"
                 target="_blank"
+                rel="noreferrer"
               >
                 BACK CODE
               </a>
