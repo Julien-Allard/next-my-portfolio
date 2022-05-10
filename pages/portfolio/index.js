@@ -5,7 +5,7 @@ import Navbar from "../../components/Navbar";
 import styles from "./Portfolio.module.scss";
 import vintedBanner from "../../assets/img/vinted.png";
 import marveactBanner from "../../assets/img/marveact.png";
-import flemmeBanner from "../../assets/img/flemme.png";
+import flemmeBanner from "../../assets/img/flemme.PNG";
 import simpleFormBanner from "../../assets/img/simpleform.png";
 import deliverooBanner from "../../assets/img/deliveroo.png";
 
