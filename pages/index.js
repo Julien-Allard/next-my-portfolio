@@ -61,7 +61,11 @@ export default function Home() {
         <main>
           <section className={styles.profile}>
             <div className={styles.portrait}>
-              <Image src={Portrait} alt="My profile picture" />
+              <Image
+                src={Portrait}
+                alt="My profile picture"
+                placeholder="blur"
+              />
             </div>
             <ul>
               <li>
