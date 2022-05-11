@@ -164,7 +164,6 @@ export default function Portfolio() {
                 <Image
                   src={flemmeBanner}
                   layout="responsive"
-                  placeholder="blur"
                   width="320"
                   height="165"
                   alt="Flemme banner"

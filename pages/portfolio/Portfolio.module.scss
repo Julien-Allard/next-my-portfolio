@@ -23,6 +23,7 @@
       flex-wrap: wrap;
       padding: 40px 0 20px 0;
       border-bottom: 1px solid #2196f3;
+      transition: 0.5s;
 
       &:nth-child(even) {
         .projectContainer {
@@ -80,6 +81,10 @@
             }
           }
         }
+      }
+
+      &:hover {
+        box-shadow: 0 0 10px 5px #2196f3;
       }
     }
 

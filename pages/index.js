@@ -65,6 +65,8 @@ export default function Home() {
                 src={Portrait}
                 alt="My profile picture"
                 placeholder="blur"
+                width="200"
+                height="200"
               />
             </div>
             <ul>
