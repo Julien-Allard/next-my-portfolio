@@ -21,6 +21,7 @@ export default function Home() {
     "NODE.JS",
     "MONGODB",
     "EXPRESS",
+    "REDUX",
   ];
 
   const tools = [
@@ -33,7 +34,7 @@ export default function Home() {
     "STRIPE",
   ];
 
-  const futureSkills = ["REDUX", "TYPESCRIPT"];
+  const futureSkills = ["TYPESCRIPT", "JEST"];
 
   return (
     <>

@@ -8,6 +8,8 @@ import marveactBanner from "../../assets/img/marveact.png";
 import flemmeBanner from "../../assets/img/flemme.PNG";
 import simpleFormBanner from "../../assets/img/simpleform.png";
 import deliverooBanner from "../../assets/img/deliveroo.png";
+import memoryoBanner from "../../assets/img/memoryo.png";
+import dashboardBanner from "../../assets/img/dashboard.png";
 
 export default function Portfolio() {
   return (
@@ -32,7 +34,56 @@ export default function Portfolio() {
           <article>
             <div className={styles.projectContainer}>
               <div className={styles.projectPrev}>
-                <h3>FILE #1 / CODENAME VINTED</h3>
+                <h3>FILE #7 / CODENAME DASHBOARD</h3>
+                <Image
+                  src={dashboardBanner}
+                  layout="responsive"
+                  placeholder="blur"
+                  width="320"
+                  height="165"
+                  alt="Vinted Clone banner"
+                />
+              </div>
+              <div className={styles.projectDescription}>
+                <ul>
+                  <li>
+                    <span>NAME</span>
+                    <span>Simple Dashboard</span>
+                  </li>
+                  <li>
+                    <span>TYPE</span>
+                    <span>Fullstack / React / Express / CSV Parser</span>
+                  </li>
+                  <li>
+                    <span>STATUS</span>
+                    <span className={styles.ready}>READY</span>
+                  </li>
+                  <li>
+                    <span>INFO</span>
+                    <span>
+                      The goal was to make a dashboard showing different metrics
+                      and a chart, with different filters, based on a .csv file
+                      containing a big set of datas. All the code is on private
+                      repositories, part of a technical test.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className={styles.linksContainer}>
+              <a
+                href="https://jallard-dashboard.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                TEST
+              </a>
+            </div>
+          </article>
+          <article>
+            <div className={styles.projectContainer}>
+              <div className={styles.projectPrev}>
+                <h3>FILE #6 / CODENAME VINTED</h3>
                 <Image
                   src={vintedBanner}
                   layout="responsive"
@@ -50,7 +101,7 @@ export default function Portfolio() {
                   </li>
                   <li>
                     <span>TYPE</span>
-                    <span>Fullstack / React / Node.js</span>
+                    <span>Fullstack / React / Express</span>
                   </li>
                   <li>
                     <span>STATUS</span>
@@ -96,7 +147,62 @@ export default function Portfolio() {
           <article>
             <div className={styles.projectContainer}>
               <div className={styles.projectPrev}>
-                <h3>FILE #2 / CODENAME MARVEACT</h3>
+                <h3>FILE #5 / CODENAME MEMORYO</h3>
+                <Image
+                  src={memoryoBanner}
+                  layout="responsive"
+                  placeholder="blur"
+                  width="320"
+                  height="165"
+                  alt="Vinted Clone banner"
+                />
+              </div>
+              <div className={styles.projectDescription}>
+                <ul>
+                  <li>
+                    <span>NAME</span>
+                    <span>Super Memoryo</span>
+                  </li>
+                  <li>
+                    <span>TYPE</span>
+                    <span>Frontend / React / Redux</span>
+                  </li>
+                  <li>
+                    <span>STATUS</span>
+                    <span className={styles.ready}>READY</span>
+                  </li>
+                  <li>
+                    <span>INFO</span>
+                    <span>
+                      A simple memory game with the Mario Theme. You got 16
+                      cards and have to find the 8 pairs before the timer runs
+                      out. Made with React and Redux.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className={styles.linksContainer}>
+              <a
+                href="https://jallard-super-memoryo.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                TEST
+              </a>
+              <a
+                href="https://github.com/Julien-Allard/redux-super-memoryo"
+                target="_blank"
+                rel="noreferrer"
+              >
+                FRONT CODE
+              </a>
+            </div>
+          </article>
+          <article>
+            <div className={styles.projectContainer}>
+              <div className={styles.projectPrev}>
+                <h3>FILE #4 / CODENAME MARVEACT</h3>
                 <Image
                   src={marveactBanner}
                   layout="responsive"
@@ -281,7 +387,7 @@ export default function Portfolio() {
           <article>
             <div className={styles.projectContainer}>
               <div className={styles.projectPrev}>
-                <h3>FILE #2 / CODENAME DELIVEROO</h3>
+                <h3>FILE #1 / CODENAME DELIVEROO</h3>
                 <Image
                   src={deliverooBanner}
                   layout="responsive"
